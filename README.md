@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gh-migration-tools/gh-gl2gh/blob/main/LICENSE)
 [![CI](https://github.com/gh-migration-tools/gh-gl2gh/actions/workflows/CI.yml/badge.svg)](https://github.com/gh-migration-tools/gh-gl2gh/actions/workflows/CI.yml)
 
-**gh-gl2gh** is a GitHub CLI extension for GitHub migrations. This extension uses under the hood the `gl-exporter` project to create an GitLab export archive.
+**gh-gl2gh** is a GitHub CLI extension for GitLab to GitHub migrations. This extension uses under the hood the `gl-exporter` project to create an GitLab export archive.
 
 By using the [Octoshift](https://github.com/gh-migration-tools/Octoshift) library this extension is build upon the same codebase and provides the same set of commands as the `gh-gei`, `gh-ado2gh` or `gh-bbs2gh` extensions.
 
