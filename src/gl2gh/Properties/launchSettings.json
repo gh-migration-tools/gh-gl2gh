@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "help": {
+      "commandName": "Project",
+      "commandLineArgs": "migrate-repo --help"
+    },
+    "migrate-repo": {
+      "commandName": "Project",
+      "commandLineArgs": "migrate-repo --docker-image ghcr.io/OWNER/gl-exporter:latest --github-org GH_ORG --github-repo GH_REPO --github-pat GH_PAT --gitlab-pat GL_PAT --gitlab-username GL_USERNAME --gitlab-namespace GL_NAMESPACE --gitlab-project GL_PROJECT --gitlab-debug --target-repo-visibility private --gitlab-except hooks --verbose"
+    }
+  }
+}
