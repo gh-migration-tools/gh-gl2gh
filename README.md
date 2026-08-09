@@ -3,6 +3,11 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/gh-migration-tools/gh-gl2gh/blob/main/LICENSE)
 [![CI](https://github.com/gh-migration-tools/gh-gl2gh/actions/workflows/CI.yml/badge.svg)](https://github.com/gh-migration-tools/gh-gl2gh/actions/workflows/CI.yml)
 
+> [!NOTE]
+> On August 3, 2026 GitHub released an [official](https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer/) [`gh-gl2gh`](https://github.com/github/gh-gl2gh) extension. Please use this for the GitLab to GitHub migrations instead.
+>
+> This repository will remain available until the `gl-exporter` is sunset for GHEC migrations.
+
 **gh-gl2gh** is a GitHub CLI extension for GitLab to GitHub migrations. This extension uses under the hood the `gl-exporter` project to create an GitLab export archive.
 
 By using the [Octoshift](https://github.com/gh-migration-tools/Octoshift) library this extension is build upon the same codebase and provides the same set of commands as the `gh-gei`, `gh-ado2gh` or `gh-bbs2gh` extensions.
